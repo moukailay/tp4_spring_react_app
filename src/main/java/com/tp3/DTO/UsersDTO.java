@@ -20,7 +20,6 @@ public class UsersDTO {
 
     @NotNull
     @NotBlank
-    @Size(min=5)
     private String nom;
 
     @NotNull

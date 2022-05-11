@@ -9,6 +9,5 @@ import java.util.List;
 
 @Repository
 public interface ClientRepository extends JpaRepository<Client, Long> {
-    Long countByIdUser ( Long id );
-
+    Long countByidUser(Long id);
 }

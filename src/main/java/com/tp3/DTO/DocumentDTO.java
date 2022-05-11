@@ -13,7 +13,6 @@ public class DocumentDTO {
 
     @NotNull
     @NotBlank
-    @Size(min=5, max = 100)
     private String titre;
     private String auteur;
     private String editeur;

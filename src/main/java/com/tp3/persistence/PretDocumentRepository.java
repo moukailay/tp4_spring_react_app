@@ -9,5 +9,5 @@ import java.util.List;
 @Repository
 public interface PretDocumentRepository extends JpaRepository<PretDocument, Long> {
     List<PretDocument> findByStatutRetour(String statut);
-    int countByIdPret ( Long id);
+    int countByidPret(Long id);
 }

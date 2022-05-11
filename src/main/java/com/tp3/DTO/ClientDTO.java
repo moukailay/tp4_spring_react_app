@@ -19,7 +19,6 @@ public class ClientDTO extends UsersDTO {
 
     @NotNull
     @NotBlank
-    @Size(min=5)
     private String adresse;
 
     public ClientDTO ( String nom , String prenom , String adresse ) {

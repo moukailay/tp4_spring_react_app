@@ -26,12 +26,10 @@ public class Users {
 
     @NotNull
     @NotBlank
-    @Size(min=5)
     private String nom;
 
     @NotNull
     @NotBlank
-    @Size(min=5)
     private String prenom;
 
     public Users ( String nom , String prenom ) {

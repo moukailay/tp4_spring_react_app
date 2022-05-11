@@ -1,6 +1,8 @@
+/*
 package com.tp3.controller;
 
 import com.tp3.execeptions.ClientNotFoundException;
+import com.tp3.execeptions.DocumentNotFoundException;
 import com.tp3.model.Client;
 import com.tp3.model.Document;
 import com.tp3.model.Livre;
@@ -30,7 +32,7 @@ public class PretDocumentController {
     }
 
     @GetMapping("/pretDocument")
-    public String afficherListePret ( Model model ) {
+    public String afficherListePret ( Model model ) throws DocumentNotFoundException {
         List<PretDocument> listePret = employeService.findAllPretDocumentEnCours();
         model.addAttribute( "listePret" , listePret );
         return "pretDocument";
@@ -86,3 +88,4 @@ public class PretDocumentController {
     }
 
 }
+*/

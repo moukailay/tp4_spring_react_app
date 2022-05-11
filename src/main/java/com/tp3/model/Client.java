@@ -25,10 +25,10 @@ public class Client extends Users {
     @ToString.Exclude
     private List<Amende> amendes;
 
-    @OneToMany(targetEntity = PretDocument.class, mappedBy = "client")
+   /* @OneToMany(targetEntity = PretDocument.class, mappedBy = "client")
 
     @ToString.Exclude
-    private List<PretDocument> pretDocuments;
+    private List<PretDocument> pretDocuments;*/
 
     public Client(String nom, String prenom, String adresse) {
         super(nom, prenom);

@@ -1,3 +1,4 @@
+/*
 package com.tp3.controller;
 
 import org.springframework.stereotype.Controller;
@@ -10,3 +11,4 @@ public class RootController {
         return "index";
     }
 }
+*/
